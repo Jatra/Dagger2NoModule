@@ -19,7 +19,7 @@ eg if Foo requires an implementation of the Bar interface:
     }
 
 ## Modules
-  A class anootated @Module hsa methods annotated @Provides which
+  A class annotated @Module has methods annotated @Provides which
   can provide implementations of types. By convention, @Provides methods are named with a provide prefix and module classes are named with a Module suffix, so a more conventional module would be
 eg
   
@@ -48,7 +48,7 @@ ie this is superfluous
 ## Components
 
 Components are always required.
-A class annotataed @Component buidls the dependency tree if more than one component,
+A class annotataed @Component builds the dependency tree if more than one component,
 and provides the ability to inject into classes.
 If just one class needing inject, then a component might be:
 
